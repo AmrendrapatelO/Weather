@@ -1,4 +1,4 @@
- /** var rotateDiv = document.getElementById('rot');
+var rotateDiv = document.getElementById('rot');
 var rotateIcons = document.getElementById('rot-icons');
 var clickRotateDiv = document.getElementById('click-rot');
 var angle = 0;
@@ -135,7 +135,7 @@ window.onload = function() {
       loadingBar.classList.remove('active');
     }, 1200);
   });
-}; **/
+}; 
 
 
 
@@ -672,7 +672,7 @@ window.onload = function() {
 
 
 // script.js
-const API_URL = "https://api.open-meteo.com/v1/forecast";
+/** const API_URL = "https://api.open-meteo.com/v1/forecast";
 
 var rotateDiv = document.getElementById('rot');
 var rotateIcons = document.getElementById('rot-icons');
@@ -937,7 +937,7 @@ window.onload = function () {
       loadingBar.classList.remove('active');
     }, 1200);
   });
-}; 
+}; **/
 
 
 
